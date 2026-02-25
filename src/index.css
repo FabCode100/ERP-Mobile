@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2525f4;
+  --color-darkBg: #0f1115;
+  --color-darkCard: #1a1d23;
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-lowStock: #f59e0b;
+  
+  --radius-twelve: 12px;
+}
+
+body {
+  background-color: var(--color-darkBg);
+  color: #e5e7eb;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

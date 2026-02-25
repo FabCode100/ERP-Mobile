@@ -1,0 +1,5 @@
+{
+  "name": "Mobile ERP Dashboard",
+  "description": "A comprehensive mobile ERP and CRM dashboard with financial, pipeline, inventory, and settings views.",
+  "requestFramePermissions": []
+}
